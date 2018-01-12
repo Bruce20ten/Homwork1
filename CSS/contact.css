@@ -83,7 +83,7 @@ body {
     
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 480px){
     
     .wrapper {
         width: 80%;
@@ -105,7 +105,7 @@ body {
     
 }
 
-@media all and (min-width: 401px) and (max-width: 767px){
+@media all and (min-width: 481px) and (max-width: 767px){
     
     .wrapper {
         width: 80%
