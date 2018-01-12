@@ -64,3 +64,39 @@ img {
     background-color: maroon;
     color: white;
  }
+
+ @media all and (max-width: 480px){
+    
+    .wrapper {
+        width: 80%;
+        margin: 100px auto;
+    }
+    
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 767px){
+    
+    .wrapper {
+        width: 80%
+    }
+    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+        
+}
