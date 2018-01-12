@@ -1,7 +1,66 @@
 * {
-	margin: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url("../img/BP1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: maroon;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    border: 2px white;
 }
 
 .title {
-	background-color: blue;
+    text-align: center;
+    width: 0 auto;
+    margin: 20px;
+    color: white;
 }
+
+.wrapper {
+    border: 2px solid white;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgrey;
+    opacity: 0.85;
+
+    }
+
+.text {
+    color: black;
+    font-size: 110%;
+}
+
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: maroon;
+    color: white;
+ }

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-image: url("../img/BP1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: maroon;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    width: 0 auto;
+    margin: 20px;
+    color: white;
+}
+
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: maroon;
+    color: white;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 100px auto;
+    overflow: hidden;
+    background-position: center;
+
+}
+
+.pics {
+    width: 225px;
+    height: 225px;
+    float: left;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pics:hover {
+    transform: scale(1.1, 1.1);
+
+}
+
+#pic1 {
+    background-image: url("../img/mail.svg");    
+
+}
+
+#pic2 {
+    background-image: url("../img/git.png");    
+
+}
+
+#pic3 {
+    background-image: url("../img/linkedin.png");
+    
+}
+
+@media all and (max-width: 400px){
+    
+    .wrapper {
+        width: 80%;
+        margin: 100px auto;
+    }
+    
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    
+}
+
+@media all and (min-width: 401px) and (max-width: 767px){
+    
+    .wrapper {
+        width: 80%
+    }
+    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+        
+}
